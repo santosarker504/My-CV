@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #CAD3C8;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.content{
+    background: #353b48;
+    width: 90%;
+    margin: 0 auto;
+    padding: 21px;
+}
+
+.header{
+    min-height: 140px;
+}
+
+.image{
+    width: 100px;
+    height: 110px;
+    border-radius: 50%;
+    float: left;
+    border: 3px solid white;
+}
+
+.text{
+    padding: 25px;
+    float: left;
+}
+
+.links{
+    float: right;
+    padding: 21px;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+}
+
+.links a::before{
+    content: '\f058';
+    font-family: 'font awesome 5 free'; 
+    margin-right: 5px;   
+}
+
+.links a:hover{
+    text-decoration: underline;
+    color: #D6A2E8;
+}
+
+hr{
+    border: 3px solid white;
+    border-bottom: none;
+}
+
+main{
+    min-height: 500px;
+}
+
+.left-bar{
+    float: left;
+    width: 30%;
+}
+
+.right-bar{
+    float: right;
+    width: 70%;
+}
+
+.common-hr{
+    border: 1px solid white;
+    border-bottom: none;
+    margin-top: 21px;
+}
+
+.div-clear{
+    clear: both;
+}
+
+.rl{
+    float: left;
+}
+
+.rr{
+    float: right;
+}
+
+.footer{
+    background: black;
+    padding: 30px;
+    margin-top: 25px;
+    text-align: center;   
+}
+
+.footer .o-footer a{
+    color: #F8EFBA;
+    text-decoration: none;   
+    margin: 40px; 
+}
+
+.footer .o-footer a:hover{
+    color: #1B9CFC;
+    text-shadow: 3px 3px 5px white;
+}
+
+.footer .u-footer p{
+    margin-top: 21px;
+}
